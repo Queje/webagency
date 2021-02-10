@@ -13,6 +13,7 @@ import About from './pages/About';
 import Works from './pages/Works';
 import StudyCase from './pages/StudyCase';
 import SwitchContext from './SwitchContext';
+import Jumbotron from './components/Jumbotron';
 
 const App = () => {
 	const [theme, setTheme] = React.useState('ligth');
@@ -42,6 +43,7 @@ const App = () => {
 			<section className={theme}>
 				<Router>
 					<Navbar />
+					<Jumbotron />
 					<main>
 						<Switch>
 							<Route path="/" exact>
