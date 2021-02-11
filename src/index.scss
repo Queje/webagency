@@ -4,11 +4,13 @@ $navtextcolor: antiquewhite!important;
 $fonttext: 'Trebuchet MS', Arial, sans-serif!important;
 
 .ligth{
+	transition: 1s;
 	background-color: white;
 	color: black;
 }
 
 .dark{
+	transition: 1s;
 	background-color: darkslategray!important;
 	color: $navtextcolor;
 }
