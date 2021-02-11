@@ -53,7 +53,7 @@ const App = () => {
 								<About />
 							</Route>
 							<Route exact path="/works">
-								<Works />
+								<Works theme={theme}/>
 							</Route>
 							<Route path="/works/:studycase">
 								<StudyCase />

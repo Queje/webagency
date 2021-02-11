@@ -9,7 +9,7 @@ $fonttext: 'Trebuchet MS', Arial, sans-serif!important;
 }
 
 .dark{
-	background-color: darkslategray;
+	background-color: darkslategray!important;
 	color: $navtextcolor;
 }
 
@@ -30,6 +30,7 @@ main{
 	height: 80vw;
 	margin-top: 40px;
 	margin-left: 40px;
+	margin-right: 40px;
 	font-family: $fonttext;
 }
 
@@ -37,4 +38,22 @@ main{
 	background: url(./assets/code.jpg) center center / cover no-repeat;
 	width: 100%;
   height: 300px;
+}
+
+.cardlist{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	.card{
+		width: 30%;
+		margin-right: 5px;
+		border: none;
+
+		Link{
+			font-size: 30px;
+			justify-items: center;
+		}
+	}
+
 }
